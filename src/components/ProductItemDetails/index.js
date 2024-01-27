@@ -9,6 +9,8 @@ import CartContext from '../../context/CartContext'
 import Header from '../Header'
 import SimilarProductItem from '../SimilarProductItem'
 
+
+
 import './index.css'
 
 const apiStatusConstants = {

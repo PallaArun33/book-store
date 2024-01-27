@@ -35,9 +35,7 @@ const Header = props => {
               src="https://2ca1daa8f44e693e4266.cdn6.editmysite.com/uploads/b/2ca1daa8f44e693e42663a2f1eb00cfcc1ae692315aa3a8043356e12fb165285/Logo1_FullColor_Irvington-01_1674587680.png?width=2400&optimize=medium"
               alt="website logo"
             />
-          </Link>
-
-           
+          </Link>   
         </div>
 
         <div className="nav-bar-large-container">
@@ -82,7 +80,6 @@ const Header = props => {
               />
             </Link>
           </li>
-
           <li className="nav-menu-item-mobile">
             <Link to="/products" className="nav-link">
               <img

@@ -1,5 +1,5 @@
 import AllProductsSection from '../AllProductsSection'
-import PrimeDealsSection from '../PrimeDealsSection'
+import BookSliderSection from '../BookSliderSection'
 
 import Header from '../Header'
 
@@ -9,7 +9,7 @@ const Products = () => (
   <>
     <Header />
     <div className="product-sections">
-      <PrimeDealsSection />
+      <BookSliderSection />
       <AllProductsSection />
     </div>
   </>

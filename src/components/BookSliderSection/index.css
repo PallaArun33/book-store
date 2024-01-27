@@ -1,0 +1,38 @@
+.books-app-container {
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  background-image:url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706313600&semt=sph");
+  border-radius:20px;
+  padding: 50px;
+  margin:20px;
+  margin-bottom:20px;
+  background-size:cover;
+  box-shadow:0px 4px 16px 0px #717170; 
+  
+}
+
+@media screen and (min-width: 768px) {
+  .books-app-container {
+    padding: 20px;
+  }
+}
+
+.heading {
+  text-align: center;
+  color: #e12b65;
+  font-family:Philosopher, 'sans-serif' ;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  
+
+}
+ 
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+     
+  }
+}
